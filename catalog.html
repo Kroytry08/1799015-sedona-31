@@ -1,130 +1,137 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lass="page" lang="ru">
+
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2? family = PT + Sans: wght @ 400; 700 & display = swap "
+    rel=" stylesheet ">
+  <link href="normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="/favicon.ico/Favicon/32.svg" type="image/x-icon">
-    <meta charset="UTF-8">
-    
-    <title>catalog SEDONA</title>
+  <meta charset="UTF-8">
+  <title>catalog SEDONA</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <a>
-              <img src="img/logo.jpg" width="138" height="70" alt="логотип тура Седона">  
-            </a>
-             <ul>
-               <li> <a href="blank.html">Информация</a></li>
-               <li> <a href="blank.html">Фото и видео</a></li>
-               <li> <a href="blank.html">Карта штата</a></li>
-               <li> <a href="blank.html">Гостиницы</a></li>
-             </ul>
-           </nav>
-    </header>
 
-    <main>
-        <section>
-        <form>
-            <h2> Инфраструктура </h2>
-            <input type ="checkbox">Басейн<br>
-            <input type ="checkbox">Парковка<br>
-            <input type ="checkbox">Wi-Fi<br>
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo.jpg" width="138" height="70" alt="логотип тура Седона">
+      </a>
+      <ul class="site-navigation">
+        <li> <a href="blank.html">Информация</a></li>
+        <li> <a href="blank.html">Фото и видео</a></li>
+        <li> <a href="blank.html">Карта штата</a></li>
+        <li> <a href="blank.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <h2> Тип жилья </h2>
-            <input type ="checkbox">Гостиница<br>
-            <input type ="checkbox">Мотель<br>
-            <input type ="checkbox">Апартамент<br>
-        </form>
+  <main class="container">
+    <section class="entry">
+      <form class="facilities-list">
+        <h2> Инфраструктура </h2>
+        <input type="checkbox">Басейн<br>
+        <input type="checkbox">Парковка<br>
+        <input type="checkbox">Wi-Fi<br>
 
-            <h2>Стоимость в сутки, ₽:</h2>
+        <h2> Тип жилья </h2>
+        <input type="checkbox">Гостиница<br>
+        <input type="checkbox">Мотель<br>
+        <input type="checkbox">Апартамент<br>
+      </form>
 
-            <a href="#">Показать</a>
+      <h2>Стоимость в сутки, ₽:</h2>
 
-            <nav>
-                <h1>Найдено: 3</h1>
-                <p> Cортировка:</p>
-                <ul>
-                    <li> 
-                        <a href="#">По цене </a>
-                    </li>
+      <a class="button" href="#">Показать</a>
 
-                    <li> 
-                        <a href="#">По типу </a>
-                    </li>
+      <nav class="main-navigation">
+        <h1>Найдено: 3</h1>
+        <p> Cортировка:</p>
+        <ul>
+          <li>
+            <a class="button" href="#">По цене </a>
+          </li>
 
-                    <li> 
-                        <a href="#">По рейтингу </a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        
+          <li>
+            <a class="button" href="#">По типу </a>
+          </li>
 
-        <section> 
-            <ul>
-                <li> 
-                    <h2>Amara Resort & Spa</h2>
-                    <img src="img/Amara Resort & Spa.png" width="135" height="90" alt="фасад гостиницы">
-                    <p>гостиница от 4000 ₽</p>
-                    <a href="#">Подробнее </a>
-                    <a href="#">Забронировать </a>
-                    <p>рейтинг 8,5</p>
-                </li>
+          <li>
+            <a class="button" href="#">По рейтингу </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
 
-                <li>
-                    <h2>Desert Quail Inn</h2>
-                    <img src="img/Desert Quail Inn.png" width ="135" height="90" alt="фасад мотеля">
-                    <p>мотель от 3000 ₽</p>
-                    <a href="#">Подробнее </a>
-                    <a href="#">Забронировать </a>
-                    <p>рейтинг 8,9</p>
-                </li>
 
-                <li>
-                    <h2>Villas at Poco Diablo</h2>
-                    <img src="img/Villas at Poco Diablo.png" width="135" height="90" alt="фасад апартаментов">
-                    <p>апартаменты  от 2000 ₽</p>
-                    <a href="#">Подробнее </a>
-                    <a href="#">Забронировать </a>
-                    <p>рейтинг 9,2</p>
-                </li>
-            </ul>
-        </section>
+    <section class="house">
+      <ul class="house-list">
+        <li class="house-item">
+          <h2>Amara Resort & Spa</h2>
+          <img src="img/Amara Resort & Spa.png" width="135" height="90" alt="фасад гостиницы">
+          <p>гостиница от 4000 ₽</p>
+          <a href="#">Подробнее </a>
+          <a href="#">Забронировать </a>
+          <p>рейтинг 8,5</p>
+        </li>
 
-    </main>
+        <li class="house-item">
+          <h2>Desert Quail Inn</h2>
+          <img src="img/Desert Quail Inn.png" width="135" height="90" alt="фасад мотеля">
+          <p>мотель от 3000 ₽</p>
+          <a href="#">Подробнее </a>
+          <a href="#">Забронировать </a>
+          <p>рейтинг 8,9</p>
+        </li>
 
-    <footer>
+        <li class="house-item">
+          <h2>Villas at Poco Diablo</h2>
+          <img src="img/Villas at Poco Diablo.png" width="135" height="90" alt="фасад апартаментов">
+          <p>апартаменты от 2000 ₽</p>
+          <a href="#">Подробнее </a>
+          <a href="#">Забронировать </a>
+          <p>рейтинг 9,2</p>
+        </li>
+      </ul>
+    </section>
 
-        <section>
-            <h3>#visitSEDONA</h3>
-            <p>
-              <a href="tel:+78005558628">+7 800 555-86-28</a>
-            </p>
-        </section>
-    
-          <section>
-              <ul>
-              <li>
-                <a href="#">Твитер</a>
-              </li>
-    
-              <li>
-                <a href="#">Фейсбук</a>
-              </li>
-    
-              <li>
-                <a href="#">Ютуб</a>
-              </li>
-            </ul>
-          </section>
-    
-          <section>
-    
-            <p> Website by</p>
-            <a >
-            <img src="img/logo_htmlacademy.png" width="115" height="33" alt="логотип html академии"> 
-            </a>
-          </section>
-    
-    </footer>
+  </main>
+
+  <footer class="main-footer">
+
+    <section class="footer-contacts">
+      <h3>#visitSEDONA</h3>
+      <p>
+        <a class="footer-contacts" href="tel:+78005558628">+7 800 555-86-28</a>
+      </p>
+    </section>
+
+    <section class="footer-contacts">
+      <ul>
+        <li>
+          <a class="social-button" href="#">Твитер</a>
+        </li>
+
+        <li>
+          <a class="social-button" href="#">Фейсбук</a>
+        </li>
+
+        <li>
+          <a class="social-button" href="#">Ютуб</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="footer-logo2">
+      <p> Website by</p>
+      <a>
+        <img src="img/logo_htmlacademy.png" width="115" height="33" alt="логотип html академии">
+      </a>
+    </section>
+
+  </footer>
 </body>
+
 </html>
