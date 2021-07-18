@@ -135,7 +135,7 @@ body {
 	position: relative;
 	width: 1200px;
 	height: 510px;
-	background: url("../images/background-first-page.png") no-repeat;
+	background: url("../img/background-first-page.png") no-repeat;
 	background-color: var(--background-no-image-color);
 }
 .shape {
@@ -206,15 +206,15 @@ body {
 	padding-left: 11px;
 }
 .image-hous-icon {
-	background: url("../images/house.png") no-repeat;
+	background: url("../img/house.png") no-repeat;
 	background-position: top;
 }
 .image-foot-icon {
-	background: url("../images/foot.png") no-repeat;
+	background: url("../img/foot.png") no-repeat;
 	background-position: top;
 }
 .image-souvenir-icon {
-	background: url("../images/souvenir.png") no-repeat;
+	background: url("../img/souvenir.png") no-repeat;
 	background-position: top;
 }
 .facilities-list li {
@@ -325,7 +325,7 @@ body {
 .map {
 	position: relative;
 	height: 474px;
-	background: url("../images/map.png") no-repeat;
+	background: url("../img/map.png") no-repeat;
 	background-color: var(--background-color-map);
 }
 .form-serch {
@@ -352,10 +352,6 @@ body {
 	transform: translate(0px, 20%);
 }
 .form-wrap {
-	/*display: grid;
-	grid-template-columns: repeat(3, 110px) 128px;
-	grid-template-rows: repeat(4, 1fr);
-	grid-gap: 5px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -404,13 +400,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	margin: -3px 0 21px 0;
-
 }
-/*.form-wrap input[type="text"] {
-	background: url("images/calendar.svg")no-repeat;
-	background-position: 317px 7px;
 
-}*/
 .modal-error {
 	animation-name: shake;
 	animation-duration: 0.6s;
@@ -438,7 +429,7 @@ input[type="text"]::placeholder {
 	position: absolute;
 	width: 21px;
 	height: 23px;
-	background: url(../images/calendar.svg) no-repeat;
+	background: url(../img/calendar.svg) no-repeat;
 	right: 65px;
 	top: 62px;
 	border: none;
@@ -449,7 +440,7 @@ input[type="text"]::placeholder {
 	position: absolute;
 	width: 21px;
 	height: 23px;
-	background: url(../images/calendar.svg) no-repeat;
+	background: url(../img/calendar.svg) no-repeat;
 	right: 65px;
 	top: 131px;
 	border: none;
@@ -457,16 +448,16 @@ input[type="text"]::placeholder {
 	cursor: pointer;
 }
 .claendar-one:hover {
-	background: url(../images/calendar-hover.svg);
+	background: url(../img/calendar-hover.svg);
 }
 .claendar-two:hover {
-	background: url(../images/calendar-hover.svg);
+	background: url(../img/calendar-hover.svg);
 }
 .claendar-one:active {
-	background: url(../images/calendar-active.svg);
+	background: url(../img/calendar-active.svg);
 }
 .claendar-two:active {
-	background: url(../images/calendar-active.svg);
+	background: url(../img/calendar-active.svg);
 }
 .form-wrap input[type="number"] {
 	position: relative;
@@ -523,22 +514,22 @@ input[type="number"]:focus {
 .minus {
 	align-self: center;
 	justify-self: center;
-	background: url("../images/minus.svg")no-repeat;
+	background: url("../img/minus.svg")no-repeat;
 }
 .minus:hover {
-	background: url("../images/minus-hover.svg")no-repeat;
+	background: url("../img/minus-hover.svg")no-repeat;
 }
 .minus:active {
-	background: url("../images/minus-active.svg")no-repeat;
+	background: url("../img/minus-active.svg")no-repeat;
 }
 .plus {
-	background: url("../images/plus.svg")no-repeat;
+	background: url("../img/plus.svg")no-repeat;
 }
 .plus:hover {
-	background: url("../images/plus-hover.svg")no-repeat;
+	background: url("../img/plus-hover.svg")no-repeat;
 }
 .plus:active {
-	background: url("../images/plus-active.svg")no-repeat;
+	background: url("../img/plus-active.svg")no-repeat;
 }
 .end-button-form {
 	grid-column: 1 / -1;
@@ -619,39 +610,39 @@ input[type="number"]:focus {
 	display: block;
 	width: 46px;
 	height: 48px;
-	background: url("../images/twitt-icon.svg");
+	background: url("../img/twitt-icon.svg");
 }
 .twitt:hover {
 	width: 46px;
 	height: 48px;
-	background: url("../images/twitt-hover.svg");
+	background: url("../img/twitt-hover.svg");
 }
 .twitt:active {
-	background: url("../images/twitt-active.svg");
+	background: url("../img/twitt-active.svg");
 }
 .facebook {
 	display: block;
 	width: 46px;
 	height: 48px;
-	background: url("../images/facebook.svg");
+	background: url("../img/facebook.svg");
 }
 .facebook:hover {
-	background: url("../images/face-hover.svg");
+	background: url("../img/face-hover.svg");
 }
 .facebook:active {
-	background: url("../images/face-active.svg");
+	background: url("../img/face-active.svg");
 }
 .youtube {
 	display: block;
 	width: 46px;
 	height: 48px;
-	background: url("../images/youtube-icon.svg");
+	background: url("../img/youtube-icon.svg");
 }
 .youtube:hover {
-	background: url("../images/youtube-hover.svg");
+	background: url("../img/youtube-hover.svg");
 }
 .youtube:active {
-	background: url("../images/youtube-active.svg");
+	background: url("../img/youtube-active.svg");
 }
 .academy {
 	grid-column: 3 / 4;
@@ -667,26 +658,22 @@ input[type="number"]:focus {
 	display: block;
 	width: 115px;
 	height: 33px;
-	background: url(../images/logo-htmlacademy.svg);
+	background: url(../img/logo-htmlacademy.svg);
 }
 .footer-logo:hover {
-	background: url("../images/logo-htmlacademy-hover.svg");
+	background: url("../img/logo-htmlacademy-hover.svg");
 }
 .footer-logo:active {
-	background: url("../images/logo-htmlacademy-active.svg");
+	background: url("../img/logo-htmlacademy-active.svg");
 }
 
 /* PAGE TWO */
 
 /* MAIN */
 
-
-.main-two {
-
-}
 .customization {
 	min-height: 217px;
-	background-image: url("../images/background-two-page.jpg");
+	background-image: url("../img/background-two-page.jpg");
 	background-color: var(--basic-background-color-two-page);
 }
 .header-form {
@@ -738,10 +725,10 @@ input[type="number"]:focus {
 	width: 26px;
 	height: 23px;
 	border: none;
-	background: url("../images/checkbox-on.svg")no-repeat;
+	background: url("../img/checkbox-on.svg")no-repeat;
 }
 .filter-input-chekbox:disabled:checked + label:before {
-	background: url("../images/checkbox-disabled-on.svg")no-repeat;
+	background: url("../img/checkbox-disabled-on.svg")no-repeat;
 }
 .filter-input-chekbox:focus + label {
 	outline: none;
@@ -928,26 +915,26 @@ input[type="number"]:focus {
 	cursor: pointer;
 }
 .image-up {
-	background: url("../images/icon-up.svg")no-repeat;
+	background: url("../img/icon-up.svg")no-repeat;
 	width: 11px;
 	height: 10px;
 }
 .image-up:hover {
-	background: url("../images/icon-up-hover.svg")no-repeat;
+	background: url("../img/icon-up-hover.svg")no-repeat;
 }
 .image-up:active {
-	background: url("../images/icon-up-active.svg")no-repeat;
+	background: url("../img/icon-up-active.svg")no-repeat;
 }
 .image-down {
-	background: url("../images/icon-down-active.svg")no-repeat;
+	background: url("../img/icon-down-active.svg")no-repeat;
 	width: 11px;
 	height: 10px;
 }
 .image-down:hover {
-	background: url("../images/icon-down-hover.svg")no-repeat;
+	background: url("../img/icon-down-hover.svg")no-repeat;
 }
 .image-down:active {
-	background: url("../images/icon-down-active.svg")no-repeat;
+	background: url("../img/icon-down-active.svg")no-repeat;
 }
 
 /* RESULT */
